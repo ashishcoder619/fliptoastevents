@@ -311,7 +311,7 @@ hr {
 .intro {
 	width:100%;
     position:relative;	
-	background: url(../img/equipment-mobile.svg) no-repeat top center #78b2e9;
+	background: url({{ site.baseurl }}/img/equipment-mobile.svg) no-repeat top center #78b2e9;
 }
 
 #intro.intro {
@@ -534,46 +534,6 @@ footer {
 footer p {
 	color: #f8f8f8;
 }
-
-/* ==========================
-Parallax
-============================= */
-
-#parallax1{	
-	background-image: url(../img/parallax/1.jpg);
-}
-
-#parallax1:after {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
-}
-
-
-#parallax2{	
-	background-image: url(../img/parallax/2.jpg);
-
-}
-
-#parallax2:after  {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
-}
-
-
 /* ===========================
 --- Elements
 ============================ */
@@ -647,7 +607,7 @@ Parallax
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -664,7 +624,7 @@ Parallax
     }
 }
 
-@-moz-keyframes pulse {    
+@moz-keyframes pulse {    
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
