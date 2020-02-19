@@ -311,7 +311,7 @@ hr {
 .intro {
 	width:100%;
     position:relative;	
-	background: url('{{ site.baseurl }}/img/equipment-mobile.svg') no-repeat top center #6684a0;
+	background: url(../img/equipment-mobile.svg) no-repeat top center #6684a0;
 }
 
 #intro.intro {
